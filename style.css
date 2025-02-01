@@ -20,9 +20,7 @@ body {
 
 #play-button {
     position: absolute;
-    top: 10%;
-    left: 1vw;
-
+    margin: 10px;
     padding: 10px 10px;
     background-color: #007bff;
     color: white;
