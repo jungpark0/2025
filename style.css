@@ -1,0 +1,38 @@
+body {
+    font-family: 'Noto sans Kr',sans-serif;
+    background-color: white;
+    color: white;
+ 
+}
+.card, .container {
+    position: relative;
+}
+
+#video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+}
+
+#play-button {
+    position: absolute;
+    top: 10%;
+    left: 1vw;
+
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+#play-button:hover {
+    background-color: #0056b3;
+  }
+  
